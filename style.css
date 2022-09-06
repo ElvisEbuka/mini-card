@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700&family=Roboto:wght@400;500&display=swap');
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "roboto";
+}
+.first-container{
+    border: 1px solid plum;
+    width: 471px;
+    height: 258px;
+    background-color: #FCEBEB;
+}
+
+.first-card-container{
+    display: flex;
+    position: relative;
+}
+
+.third-card-container{
+    position: absolute;
+    height: 45px;
+    width: 471px;
+    top: 221px;
+    background-color: red;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.image-container{
+    width: 162.5px;
+    height: 142px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.name-container{
+    width: 237px;
+    height: 16px;
+    padding-left: 9px;
+    padding-top: 5px;
+}
+
+.p-one-container{
+    font-size: 13px;
+}
+
+.second-container{
+    width: 150px;
+    height: 21px;
+    color: #FF4848;
+}
+
+.second-content{
+    position: absolute;
+    left: 280px;
+    top: 20px;
+}
+.p-two-container{
+    font-size: 18px;
+
+}
+
+.third-content{
+    position: absolute;
+    width: 116px;
+    height: 56px;
+    left: 295px;
+    top: 50px;
+    
+}
+
+.p-three-container{
+    font-size: 40px;
+    left:295PX;
+}
+.fourth-content{
+    position: absolute;
+    display: flex;
+    left: 340px;
+    top: 108%;
+    
+}
+  
+
+.contact-container{
+    font-size: 14px;
+    padding-right: 0px;
+    color: black;
+}
+
+.icon-container{
+    padding: 10px
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.border-image{
+    border: 1px solid black;
+    width: 229px;
+    height: 38px;
+}
+
+/* Second card styling behings here... */
+
+.buttom-container {
+    background-color: #fff;
+    width: 471px;
+    height: 258px;  
+    margin-top: 50px;
+    border: 1px solid plum; 
+}
+
+.upper-section {
+    display: flex;
+
+}
+
+.second-logo {
+    width: 47px;
+    height: 67px;
+    margin-right: 18px;
+}
+
+.first-rectangle {
+    background-color: #32A2E1;
+    border: none;
+    width: 383px;
+    height: 59px;
+    margin-top: 14px;
+    margin-left: 29px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+
+}
+
+.second-rectangle {
+    background-color: #fff;
+    width: 229px;
+    height: 28px;
+    margin: auto;
+}
+
+.pin {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    left: 35px;
+    top: 25px;
+}
+
+object[data="./Rectangle 5.png"] {
+    width: 47px;
+    height: 67px;
+    margin-right: 18px;
+    margin-top: 14px;    
+}
+
+div.instruction-link-text {
+    color: #000;
+    font-weight: 300;
+    font-size: 1.125rem;
+    margin: 5px auto;
+    text-align: center;
+    
+
+}
+
+div.instruction {
+    color: #000;
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-align: center;
+    margin-top: 8px;
+    line-height: 0.9em; 
+}
+
+div.amount-received {
+    color: #000;
+    font-weight: 500;
+    font-size: 2.25rem;
+    text-align: center; 
+}
+
+span.bold-text {
+    font-weight: bold;
+}
+
+
+/* Styling the barcode section */
+
+.barcode-details-container {
+    display: flex;
+    width: 471px;
+    height: 43px;
+    border-top: 1px solid #AAA6A6;
+    border-bottom: 1px solid #AAA6A6;
+    justify-content: space-between;
+}
+
+.pieces_batch-details{
+    margin: 0px;
+}
+
+p.barcode-number {   
+    color: #000;
+    font-weight: 400;
+    font-size: 0.8125rem;
+   line-height: 1.7em;
+   margin: 0px 0px 0px 24px;
+}
+
+.barcode {
+    width: 120px;
+    height: 24px;    
+    margin-top: 15px; 
+    margin-right: 4px;   
+}
